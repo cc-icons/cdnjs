@@ -1,6 +1,6 @@
 {
   "name": "mocha",
-  "version": "1.21.4",
+  "version": "2.2.1",
   "description": "simple, flexible, fun test framework",
   "npmName": "mocha",
   "npmFileMap": [
@@ -56,5 +56,5 @@
     "mocha.css",
     "mocha.js"
   ],
-  "filename": "mocha.js"
+  "filename": "mocha.min.js"
 }

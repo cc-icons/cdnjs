@@ -1,7 +1,7 @@
 {
   "name": "pace",
   "filename": "pace.js",
-  "version": "0.5.6",
+  "version": "1.0.2",
   "description": "Automatic web page progress bar",
   "homepage": "http://github.hubspot.com/pace/",
   "keywords": [
@@ -16,7 +16,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/HubSpot/pace.git",
+    "target": "git://github.com/HubSpot/pace.git",
     "basePath": "",
     "files": [
       "pace.js",

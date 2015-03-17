@@ -1,0 +1,23 @@
+{
+  "name": "spf",
+  "version": "2.1.2",
+  "description": "A lightweight JS framework for fast navigation and page updates from YouTube",
+  "homepage": "https://github.com/youtube/spfjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youtube/spfjs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/youtube/spfjs/issues"
+  },
+  "filename": "spf.js",
+  "npmName": "spf",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*"
+      ]
+    }
+  ]
+}

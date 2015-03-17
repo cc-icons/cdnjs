@@ -10,10 +10,12 @@
     "authentication",
     "two factor authentication"
   ],
-  "maintainers": [{
-    "name": "Authy Inc",
-    "web": "https://www.authy.com"
-  }],
+  "maintainers": [
+    {
+      "name": "Authy Inc",
+      "web": "https://www.authy.com"
+    }
+  ],
   "contributors": [
     {
       "name": "Johanna Mantilla Duque"
@@ -25,10 +27,12 @@
       "name": "Daniel Palacio"
     }
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/authy/authy-form-helpers"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/authy/authy-form-helpers"
+    }
+  ],
   "licenses": [
     {
       "type": "MIT",

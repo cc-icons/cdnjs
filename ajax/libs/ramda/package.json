@@ -15,6 +15,7 @@
   "npmName": "ramda",
   "npmFileMap": [
     {
+      "basePath": "/dist/",
       "files": [
         "ramda.js",
         "ramda.min.js"
@@ -23,12 +24,12 @@
   ],
   "name": "ramda",
   "description": "A practical functional library for Javascript programmers.",
-  "version": "0.4.3",
-  "homepage": "https://www.github.com/CrossEye/ramda",
+  "version": "0.11.0",
+  "homepage": "https://www.github.com/ramda/ramda",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/CrossEye/ramda.git"
+    "url": "git://github.com/ramda/ramda.git"
   },
   "filename": "ramda.min.js",
   "scripts": {

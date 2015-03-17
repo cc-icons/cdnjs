@@ -6,8 +6,10 @@
   "homepage": "https://github.com/justjohn/twig.js",
   "filename": "twig.min.js",
   "licenses": [
-    { "type": "BSD-2-Clause",
-      "url":  "https://raw.github.com/justjohn/twig.js/master/LICENSE" }
+    {
+      "type": "BSD-2-Clause",
+      "url": "https://raw.github.com/justjohn/twig.js/master/LICENSE"
+    }
   ],
   "repository": {
     "type": "git",

@@ -10,12 +10,16 @@
     "web workers",
     "worker"
   ],
-  "maintainers": [{
-    "name": "Etienne Lemay",
-    "web": "http://heliom.ca"
-  }],
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/EtienneLem/architect"
-  }]
+  "maintainers": [
+    {
+      "name": "Etienne Lemay",
+      "web": "http://heliom.ca"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/EtienneLem/architect"
+    }
+  ]
 }

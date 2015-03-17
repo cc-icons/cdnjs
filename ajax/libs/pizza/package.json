@@ -10,16 +10,15 @@
     "snap",
     "svg",
     "zurb"
-    ],
-  "maintainers": [
-  {
-    "name": "Jordan Humphreys",
-    "url": "https://github.com/mrsweaters"
-
-  }
   ],
-    "repositories": [
-    { 
+  "maintainers": [
+    {
+      "name": "Jordan Humphreys",
+      "url": "https://github.com/mrsweaters"
+    }
+  ],
+  "repositories": [
+    {
       "type": "git",
       "url": "https://github.com/zurb/pizza.git"
     }

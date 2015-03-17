@@ -1,6 +1,6 @@
 {
   "name": "angular-i18n",
-  "filename":"angular-locale_en-us.js",
+  "filename": "angular-locale_en-us.js",
   "description": "Locales for AngularJS",
   "version": "1.2.15",
   "homepage": "http://angularjs.org",
@@ -11,10 +11,12 @@
     "angular",
     "angular.js"
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/angular/angular.js.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/angular/angular.js.git"
+    }
+  ],
   "bugs": "https://github.com/angular/angular.js/issues",
   "licenses": [
     {

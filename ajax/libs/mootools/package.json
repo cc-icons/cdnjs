@@ -1,7 +1,7 @@
 {
   "name": "mootools",
-  "filename":"mootools-core-full-compat.min.js",
-  "version": "1.5.0",
+  "filename": "mootools-core-full-compat.min.js",
+  "version": "1.5.1",
   "description": "MooTools is a compact, modular, Object-Oriented JavaScript framework designed for the intermediate to advanced JavaScript developer.",
   "repository": {
     "type": "git",

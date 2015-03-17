@@ -1,7 +1,7 @@
 {
   "name": "dropzone",
-  "filename": "dropzone.min.js",
-  "version": "3.8.4",
+  "filename": "min/dropzone.min.js",
+  "version": "4.0.1",
   "description": "Drag'n'drop file uploads with image previews",
   "homepage": "http://www.dropzonejs.com/",
   "keywords": [
@@ -24,18 +24,12 @@
   "npmName": "dropzone",
   "npmFileMap": [
     {
-      "basePath": "/downloads/",
+      "basePath": "/dist/",
       "files": [
-        "css/basic.css",
-        "css/dropzone.css",
-        "css/stylus/basic.styl",
-        "css/stylus/dropzone.styl",
-        "dropzone-amd-module.js",
-        "dropzone-amd-module.min.js",
-        "dropzone.js",
-        "dropzone.min.js",
-        "images/spritemap.png",
-        "images/spritemap@2x.png"
+        "*.js",
+        "*.css",
+        "*/*.js",
+        "*/*.css"
       ]
     }
   ]

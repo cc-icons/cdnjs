@@ -1,16 +1,27 @@
 {
   "name": "Han",
   "filename": "han.min.css",
-  "version": "2.3.0",
+  "version": "3.1.1",
   "description": "The CSS typography framework optimised for Hanzi",
+  "npmName": "han-css",
+  "npmFileMap": [
+    {
+      "basePath": "dist/",
+      "files": [
+        "han.min.css",
+        "han.css",
+        "han.min.js",
+        "han.js",
+        "font/han.woff",
+        "font/han.otf"
+      ]
+    }
+  ],
   "keywords": [
-    "han",
-    "Chinese",
-    "Japanese",
-    "Korean",
-    "CSS",
-    "normamlize",
-    "typography"
+    "CJK",
+    "normalize",
+    "typography",
+    "typesetting"
   ],
   "author": "ethantw <ethantw@me.com>",
   "homepage": "http://css.hanzi.co/",

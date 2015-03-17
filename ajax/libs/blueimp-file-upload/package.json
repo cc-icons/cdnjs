@@ -30,7 +30,8 @@
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
   },
-  "maintainers": [{
+  "maintainers": [
+    {
       "name": "Sebastian Tschan",
       "url": "https://blueimp.net"
     }
@@ -39,7 +40,8 @@
     "type": "git",
     "url": "git://github.com/blueimp/jQuery-File-Upload.git"
   },
-  "licenses": [{
+  "licenses": [
+    {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/MIT"
     }

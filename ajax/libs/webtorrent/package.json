@@ -1,0 +1,39 @@
+{
+  "name": "webtorrent",
+  "npmName": "webtorrent",
+  "npmFileMap": [
+    {
+      "files": [
+        "webtorrent.min.js"
+      ]
+    }
+  ],
+  "version": "0.29.0",
+  "filename": "webtorrent.min.js",
+  "description": "WebTorrent is a streaming torrent client for node.js and the browser. In the browser, WebTorrent uses WebRTC (data channels) for peer-to-peer transport. It can be used without browser plugins, extensions, or installations.",
+  "homepage": "http://webtorrent.io",
+  "license": "MIT",
+  "main": "webtorrent.min.js",
+  "keywords": [
+    "torrent",
+    "bittorrent",
+    "bittorrent client",
+    "streaming",
+    "download",
+    "webrtc",
+    "webrtc data",
+    "webtorrent",
+    "mad science"
+  ],
+  "author": {
+    "name": "Feross Aboukhadijeh",
+    "email": "feross@feross.org",
+    "url": "http://feross.org/"
+  },
+  "bugs": "https://github.com/feross/webtorrent/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feross/webtorrent.git"
+  },
+  "namespace": "WebTorrent"
+}

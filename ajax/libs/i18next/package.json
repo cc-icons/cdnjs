@@ -6,10 +6,11 @@
   "description": "i18next is a full-featured i18n javascript library for translating your web application.",
   "homepage": "http://i18next.com/",
   "keywords": [
-      "i18n",
-      "internationalisation"
+    "i18n",
+    "internationalisation"
   ],
-  "repositories": [{
+  "repositories": [
+    {
       "type": "git",
       "url": "https://github.com/jamuhl/i18next.git"
     }

@@ -1,0 +1,42 @@
+{
+  "name": "l20n",
+  "filename": "l20n.min.js",
+  "version": "1.0.2",
+  "description": "A client side localization library from Mozilla",
+  "keywords": [
+    "localization",
+    "l10n"
+  ],
+  "homepage": "http://l20n.org",
+  "author": "Mozilla <l10n-drivers@mozilla.org>",
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zbigniew Braniecki",
+      "email": "zbraniecki@mozilla.com"
+    },
+    {
+      "name": "Staś Małolepszy",
+      "email": "stas@mozilla.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/l20n/builds"
+  },
+  "bugs": "https://bugzilla.mozilla.org/enter_bug.cgi?product=Firefox%20OS&component=Gaia::L10n",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/l20n/builds.git",
+    "basePath": "",
+    "files": [
+      "l20n.js",
+      "l20n.min.js"
+    ]
+  }
+}

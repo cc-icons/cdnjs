@@ -5,8 +5,8 @@
   "description": "CanvasJS is an easy to use HTML5 & JavaScript Charting library built on Canvas element.",
   "homepage": "http://canvasjs.com/",
   "keywords": [
-      "canvas",
-      "charts"
+    "canvas",
+    "charts"
   ],
   "author": "fenopix",
   "license": "Creative Commons Attribution-NonCommercial 3.0"

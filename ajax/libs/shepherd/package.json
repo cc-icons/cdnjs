@@ -1,6 +1,6 @@
 {
   "name": "shepherd",
-  "version": "0.5.1",
+  "version": "0.6.14",
   "filename": "shepherd.min.js",
   "description": "Guide your users through a tour of your app.",
   "authors": [
@@ -22,7 +22,7 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/HubSpot/shepherd.git",
+    "target": "git://github.com/HubSpot/shepherd.git",
     "basePath": "",
     "files": [
       "shepherd.js",

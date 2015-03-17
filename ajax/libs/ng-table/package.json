@@ -1,0 +1,23 @@
+{
+  "name": "ng-table",
+  "version": "0.3.3",
+  "author": "Vitalii Savchuk <esvit666@gmail.com>",
+  "license": "BSD",
+  "filename": "ng-table.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/esvit/ng-table.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/esvit/ng-table.git",
+    "basePath": "",
+    "files": [
+      "ng-table.js",
+      "ng-table.css",
+      "ng-table.min.js",
+      "ng-table.min.css",
+      "ng-table.map"
+    ]
+  }
+}

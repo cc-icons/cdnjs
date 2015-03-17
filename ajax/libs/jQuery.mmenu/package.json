@@ -1,7 +1,7 @@
 {
   "name": "jQuery.mmenu",
   "filename": "js/jquery.mmenu.min.js",
-  "version": "4.3.2",
+  "version": "4.7.5",
   "homepage": "http://mmenu.frebsite.nl/",
   "authors": [
     "Fred Heusschen <info@frebsite.nl>"
@@ -17,5 +17,20 @@
   ],
   "dependencies": {
     "jquery": ">= 1.7.0"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/BeSite/jQuery.mmenu.git",
+    "basePath": "src",
+    "files": [
+      "css/*/*/*/*",
+      "css/*/*/*",
+      "css/*/*",
+      "css/*",
+      "js/*/*/*/*",
+      "js/*/*/*",
+      "js/*/*",
+      "js/*"
+    ]
   }
 }

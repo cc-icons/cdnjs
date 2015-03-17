@@ -1,7 +1,7 @@
 {
   "name": "html5sortable",
   "filename": "html.sortable.min.js",
-  "version": "0.1.1",
+  "version": "0.1.8",
   "license": "MIT",
   "description": "Lightweight jQuery plugin to create sortable lists and grids using native HTML5 drag and drop API.",
   "author": {
@@ -28,5 +28,13 @@
     "jshint-stylish": "~0.1.4",
     "grunt-jsvalidate": "~0.2.2",
     "grunt-contrib-clean": "~0.5.0"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/voidberg/html5sortable.git",
+    "basePath": "dist",
+    "files": [
+      "*"
+    ]
   }
 }

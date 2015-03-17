@@ -23,10 +23,12 @@
       "name": "Thomas Weiser"
     }
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/firebase/angularFire.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/firebase/angularFire.git"
+    }
+  ],
   "bugs": "https://github.com/firebase/angularFire/issues",
   "licenses": [
     {

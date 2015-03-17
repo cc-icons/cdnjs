@@ -1,15 +1,6 @@
 {
   "name": "lodash.js",
-  "npmName": "lodash",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": [
-        "*"
-      ]
-    }
-  ],
-  "version": "2.4.1",
+  "version": "3.5.0",
   "filename": "lodash.min.js",
   "description": "A utility library delivering consistency, customization, performance, & extras.",
   "homepage": "http://lodash.com/",
@@ -35,5 +26,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lodash/lodash.git"
+  },
+  "namespace": "_",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/lodash/lodash.git",
+    "basePath": "",
+    "files": [
+      "lodash.js",
+      "lodash.min.js"
+    ]
   }
 }

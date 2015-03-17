@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/cdnjs/cdnjs.svg?branch=master)](https://travis-ci.org/cdnjs/cdnjs) [![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies) [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE) [![Gitter chat](http://img.shields.io/badge/GITTER-cdnjs-brightgreen.svg)](https://gitter.im/cdnjs/cdnjs) [![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
+[![Circle CI](https://circleci.com/gh/cdnjs/cdnjs.svg?style=svg)](https://circleci.com/gh/cdnjs/cdnjs) [![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs) [![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies) [![license](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](https://github.com/cdnjs/cdnjs/blob/master/MIT-LICENSE) [![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs) [![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
 
 # cdnjs Library Repository
 
@@ -9,6 +9,7 @@
 cdnjs will host any production version of any JavaScript/CSS library, subject to licence permissions.
 
   * Beta, release candidate and alpha releases are not usually considered ready for full production status. Requests for pre-release versions of libraries _may_ be declined after peer review.
+  * We'll accept beta, release candidate and alpha releases if you are using our npm/git auto-update mechanism, if you really want it, please setup auto-update for that lib.
 
 Please raise a new pull request for new library additions and existing library updates, following the instructions below.
 
@@ -54,9 +55,9 @@ You should consider the following when adding to or updating the library, so tha
 * You should sync your local repository with our master branch as new as possible, try to make the commits' parent be new.
  * Please use `git pull --rebase` instead of `git pull`, use `git rebase upstream/master` instead of `git merge upstream/master`, so that we can avoid of meaningless merging.
 
-* Only do one thing in one commits, don't mix different things into the same commit.
+* Only do one _meaningful_ thing in one commits, don't mix different things into the same commit, like add two libs in a commit.
 
-* Every commits should be meaningful, don't cut one thing into multiple commits.
+* Every commits should be meaningful, don't cut one thing into multiple commits, like add a lib in 3 commits.
 
 * Inspect your work by `git diff` & `git status` before commit your change.
 
@@ -121,7 +122,7 @@ A URL is ideal. Providing the origin of your files is very helpful as the cdnjs 
 
 ## Enabling `npm` auto update
 
-cdnjs automatically updates libraries that are known to be hosted on `npm` e.g., Lodash. This auto-update script runs every 15 minutes.
+cdnjs automatically updates libraries that are known to be hosted on `npm` e.g., Lodash. This auto-update script runs every hour, but the update result won't be committed until one of our maintainers audit the diff, bacause many libs will change the naming or directory structure during different versions, and we may need to minify the lib without pre-minified dist files, so it'll be reasonable to delay for at most 30 hours, if you think there is a lib didn't been updated, please wait at least 30 hours for the process to audit it.
 
 To add an `npm` hook to a library, update the `package.json` with configuration details and submit your pull request. An example configuration:
 

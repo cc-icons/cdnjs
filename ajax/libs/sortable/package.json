@@ -10,13 +10,7 @@
   "author": "Adam Schwartz <adam.flynn.schwartz@gmail.com>",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/HubSpot/sortable.git"
+    "type": "git",
+    "url": "https://github.com/HubSpot/sortable.git"
   }
 }
-
-
-
-
-
-

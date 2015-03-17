@@ -1,5 +1,4 @@
-var Hipchat = require('node-hipchat'),
-    path = require("path"),
+var path = require("path"),
     assert = require("assert"),
     fs = require("fs-extra"),
     glob = require("glob"),
@@ -17,25 +16,6 @@ colors.setTheme({
   error: 'red'
 });
 
-var HC = new Hipchat(process.env.HIPCHAT);
-var hipchat = {
-  message: function(color, message) {
-    if (process.env.HIPCHAT) {
-      var params = {
-        room: 165440,
-        from: 'Auto Update',
-        message: message,
-        color: color,
-        notify: 0
-      };
-      HC.postMessage(params, function(data) {});
-    } else {
-      console.log('No Hipchat API Key'.warn);
-    }
-  }
-};
-
-hipchat.message('gray', 'Auto Update Started');
 var newVersionCount = 0;
 var parse = function (json_file, ignore_missing, ignore_parse_fail) {
     var content;
@@ -91,7 +71,6 @@ var error = function(msg, name){
     var err = new Error(msg);
     err.name = name;
     console.log(msg.error);
-    hipchat.message('red', msg);
     return err;
 }
 error.PKG_NAME = 'BadPackageName'
@@ -245,11 +224,10 @@ var updateLibrary = function (pkg, cb) {
     if(!isValidFileMap(pkg)){
         var msg = pkg.npmName.error + " has a malicious npmFileMap";
         console.log(msg.warn);
-        hipchat.message('red', pkg.npmName+" has a malicious npmFileMap: "+ JSON.stringify(pkg.npmFileMap));
         return cb(null);
     }
     var msg = 'Checking versions for ' + pkg.npmName;
-    console.log(msg);
+    console.log(msg.prompt);
     request.get('http://registry.npmjs.org/' + pkg.npmName, function(result) {
         async.eachLimit(_.pairs(result.body.versions), maxWorker, function(p, cb){
             var data = p[1];
@@ -277,14 +255,12 @@ exports.run = function(){
         var parsedPkg = parse(pkg);
         return (parsedPkg.npmName && parsedPkg.npmFileMap) ? parsedPkg : null;
     }).compact().value();
-    hipchat.message('green', 'Found ' + packages.length + ' npm enabled libraries');
     var msg = 'Found ' + packages.length + ' npm enabled libraries';
     console.log(msg.prompt);
 
     async.eachLimit(packages, maxWorker, updateLibrary, function(err) {
         var msg = 'Auto Update Completed - ' + newVersionCount + ' versions were updated';
         console.log(msg.prompt);
-        hipchat.message('green', 'Auto Update Completed - ' + newVersionCount + ' versions were updated');
         fs.removeSync(path.join(__dirname, 'temp'))
     });
 }

@@ -36,10 +36,12 @@
       "name": "Pawel Kozlowski"
     }
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/angular-ui/ui-utils.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/angular-ui/ui-utils.git"
+    }
+  ],
   "licenses": [
     {
       "type": "MIT",

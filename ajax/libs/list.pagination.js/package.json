@@ -25,7 +25,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/javve/list.pagination.js.git",
+    "target": "git://github.com/javve/list.pagination.js.git",
     "basePath": "dist/",
     "files": [
       "*"

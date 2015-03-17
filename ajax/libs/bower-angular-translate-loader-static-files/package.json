@@ -23,10 +23,12 @@
       "name": "Jan Philipp"
     }
   ],
-  "repositories": [{
-    "type": "git",
-    "url": "https://github.com/angular-translate/bower-angular-translate-loader-static-files"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/angular-translate/bower-angular-translate-loader-static-files"
+    }
+  ],
   "bugs": "https://github.com/angular-translate/bower-angular-translate-loader-static-files/issues",
   "licenses": [
     {

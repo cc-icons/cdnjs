@@ -8,10 +8,12 @@
     "datepicker"
   ],
   "author": "ChiperSoft",
-  "repositories": [{
-    "type": "git",
-    "url": "git://github.com/ChiperSoft/Kalendae.git"
-  }],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/ChiperSoft/Kalendae.git"
+    }
+  ],
   "bugs": "https://github.com/ChiperSoft/Kalendae/issues",
   "licenses": [
     {

@@ -1,7 +1,7 @@
 {
   "name": "basics",
-  "filename" : "basics.css",
-  "version": "1.2.0",
+  "filename": "basics.css",
+  "version": "1.2.2",
   "homepage": "https://github.com/haydenbleasel/basics",
   "author": {
     "name": "Hayden Bleasel",
@@ -10,7 +10,7 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/haydenbleasel/basics.git",
+    "target": "git://github.com/haydenbleasel/basics.git",
     "basePath": "",
     "files": [
       "basics.css"

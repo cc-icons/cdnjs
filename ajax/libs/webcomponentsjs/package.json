@@ -1,0 +1,31 @@
+{
+  "name": "webcomponentsjs",
+  "title": "webcomponentsjs",
+  "main": "webcomponents.js",
+  "filename": "webcomponents.min.js",
+  "version": "0.5.5",
+  "homepage": "http://webcomponents.org",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "keywords": [
+    "webcomponents"
+  ],
+  "license": "BSD",
+  "ignore": [],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/Polymer/webcomponentsjs"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/Polymer/webcomponentsjs.git",
+    "basePath": "",
+    "files": [
+      "*.js",
+      "*.min.js"
+    ]
+  }
+}

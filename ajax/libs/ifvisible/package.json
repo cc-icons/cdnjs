@@ -4,7 +4,10 @@
   "version": "1.0.1",
   "description": "Crossbrowser & lightweight way to check if user is looking at the page or interacting with it.",
   "main": "ifvisible.js",
-  "keywords": ["visibility", "wrapper"],
+  "keywords": [
+    "visibility",
+    "wrapper"
+  ],
   "homepage": "https://github.com/serkanyersen/ifvisible.js",
   "author": "Serkan Yersen <serkanyersen@gmail.com> (http://serkan.io/)",
   "license": "MIT",
@@ -12,8 +15,10 @@
     "type": "git",
     "url": "https://github.com/serkanyersen/ifvisible.js.git"
   },
-  "maintainers" : [{
-    "name": "Serkan Yersen",
-    "web": "http://serkan.io"
-  }]
+  "maintainers": [
+    {
+      "name": "Serkan Yersen",
+      "web": "http://serkan.io"
+    }
+  ]
 }

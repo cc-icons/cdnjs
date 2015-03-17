@@ -2,7 +2,7 @@
   "name": "uikit",
   "title": "UIkit",
   "filename": "js/uikit.min.js",
-  "version": "2.9.0",
+  "version": "2.18.0",
   "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
   "homepage": "http://www.getuikit.com",
   "author": {
@@ -29,11 +29,14 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/uikit/uikit.git",
-    "basePath": "dist/",
+    "target": "git://github.com/uikit/bower-uikit.git",
+    "basePath": "",
     "files": [
-      "*/*/*",
-      "*/*"
+      "css/*/*",
+      "css/*",
+      "js/*/*",
+      "js/*",
+      "fonts/*"
     ]
   }
 }

@@ -14,26 +14,25 @@
   },
   "dependencies": {
     "async": "~0.9",
-    "clean-css": "~2.2",
+    "clean-css": "~3.1",
     "execSync": "~1.0",
-    "fs-extra": "~0.11",
+    "fs-extra": "~0.16",
     "glob": "~4",
-    "lodash": "~2.4",
-    "rss": "~0.3",
-    "superagent": "~0.18",
+    "lodash": "~3.5",
+    "rss": "~1.1",
+    "superagent": "~0.21",
     "tarball-extract": "~0.0",
     "uglify-js": "~2.4",
     "underscore": "~1",
-    "node-hipchat": "~0.4",
-    "colors": "~0.6"
+    "colors": "~1.0"
   },
   "devDependencies": {
-    "jslint": "~0.6.2",
+    "jslint": "~0.8",
     "JSV": "~4.0.2",
     "vows-si": "~0.7.1"
   },
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "^0.10"
   }
 }

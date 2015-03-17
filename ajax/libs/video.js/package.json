@@ -1,23 +1,38 @@
 {
-    "name": "video.js",
-    "filename": "video.js",
-    "version": "4.1.0",
-    "description": "Open source HTML5 & Flash video player",
-    "homepage": "http://videojs.com/",
-    "keywords": [
-       "video",
-       "videojs"
-   ],
-   "maintainers": [
-       {
-           "name": "videojs",
-           "web": "https://github.com/videojs"
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "https://github.com/videojs/video.js"
-       }
-   ]
+  "name": "video.js",
+  "filename": "video.js",
+  "version": "4.12.4",
+  "description": "Open source HTML5 & Flash video player",
+  "homepage": "http://videojs.com/",
+  "keywords": [
+    "video",
+    "videojs"
+  ],
+  "maintainers": [
+    {
+      "name": "videojs",
+      "web": "https://github.com/videojs"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/videojs/video.js"
+    }
+  ],
+  "npmName": "video.js",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/video-js/",
+      "files": [
+        "video-js.css",
+        "video-js.min.css",
+        "video-js.swf",
+        "video.dev.js",
+        "video.js",
+        "lang/*",
+        "font/*"
+      ]
+    }
+  ]
 }

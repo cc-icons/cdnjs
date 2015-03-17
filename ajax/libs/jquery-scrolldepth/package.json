@@ -1,11 +1,29 @@
 {
-    "name": "jquery-scrolldepth",
-    "filename": "jquery.scrolldepth.min.js",
-    "version": "0.4",
-    "description": "A jQuery plugin to track page scroll depth",
-    "homepage": "http://robflaherty.github.io/jquery-scrolldepth/",
-    "keywords": [
-       "jquery",
-       "scrolldepth"
-   ]
+  "name": "jquery-scrolldepth",
+  "filename": "jquery.scrolldepth.min.js",
+  "version": "0.6",
+  "description": "A jQuery plugin to track page scroll depth",
+  "homepage": "http://scrolldepth.parsnip.io",
+  "authors": [
+    "Rob Flaherty"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "analytics",
+    "google-analytics",
+    "tracking",
+    "jquery",
+    "scrolldepth"
+  ],
+  "dependencies": {
+    "jquery": ">=1.8"
+  },
+  "license": "MIT",
+  "ignore": [
+    "test",
+    "build.sh",
+    "contributing.md"
+  ]
 }

@@ -2,7 +2,7 @@
   "name": "angular-busy",
   "filename": "angular-busy.min.js",
   "description": "Show busy/loading indicators on any $http or $resource request, or on any promise",
-  "version": "4.1.0",
+  "version": "4.1.2",
   "files": [
     "dist/angular-busy.js",
     "dist/angular-busy.min.js",
@@ -29,14 +29,15 @@
     "busy",
     "indicator"
   ],
-  "npmName": "angular-busy",
-  "npmFileMap": [
-    {
-      "basePath": "/dist/",
-      "files": [
-        "*.js",
-        "*.css"
-      ]
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cgross/angular-busy.git",
+    "basePath": "dist/",
+    "files": [
+      "angular-busy.js",
+      "angular-busy.min.js",
+      "angular-busy.css",
+      "angular-busy.min.css"
+    ]
+  }
 }

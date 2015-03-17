@@ -1,0 +1,36 @@
+{
+  "name": "dot",
+  "filename": "doT.min.js",
+  "description": "doT is the he fastest + concise javascript template engine for nodejs and browsers. Partials, custom delimiters and more.",
+  "version": "1.0.3",
+  "homepage": "http://olado.github.io/doT/",
+  "keywords": [
+    "template"
+  ],
+  "author": {
+    "name": "Laura Doktorova",
+    "url": "http://milq.com/p/olado"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/olado/doT.git"
+    }
+  ],
+  "bugs": "https://github.com/olado/doT/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/olado/doT/blob/master/LICENSE-DOT.txt"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/olado/doT.git",
+    "basePath": "",
+    "files": [
+      "doT.min.js",
+      "doT.js"
+    ]
+  }
+}

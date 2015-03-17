@@ -7,13 +7,13 @@
   "keywords": [
     "jquery",
     "jkit",
-	"ui",
-	"toolkit"
+    "ui",
+    "toolkit"
   ],
   "repositories": [
     {
       "type": "git",
-      "url" : "https://github.com/FrediBach/jQuery-jKit"
+      "url": "https://github.com/FrediBach/jQuery-jKit"
     }
   ]
 }

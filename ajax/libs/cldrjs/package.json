@@ -1,6 +1,6 @@
 {
   "name": "cldrjs",
-  "version": "0.3.8",
+  "version": "0.4.1",
   "description": "Simple CLDR API",
   "filename": "cldr.min.js",
   "keywords": [
@@ -51,7 +51,7 @@
   },
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/rxaviers/cldrjs.git",
+    "target": "git://github.com/rxaviers/cldrjs.git",
     "basePath": "/dist",
     "files": [
       "cldr.js",

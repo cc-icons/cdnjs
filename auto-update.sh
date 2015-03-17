@@ -7,7 +7,7 @@ echo Getting latest libraries
 git add .
 git diff --quiet --exit-code --cached || git commit -m 'bla'
 ls
-git pull origin master
+git pull --rebase origin master
 git rebase master
 
 echo npm install for good measure

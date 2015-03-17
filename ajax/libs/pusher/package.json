@@ -1,26 +1,34 @@
 {
-    "name": "pusher",
-    "filename": "pusher.min.js",
-    "version": "2.1.6",
-    "description": "Pusher Javascript library",
-    "homepage": "http://pusher.com/",
-    "keywords": [
-       "pusher",
-       "websockets",
-       "realtime"
-   ],
-   "maintainers": [
-       {
-           "name": "Pusher",
-           "twitter": "pusher",
-           "web": "http://pusher.com/"
-       }
-   ],
-   "repositories": [
-       {
-           "type": "git",
-           "url": "http://github.com/pusher/pusher-js"
-       }
-   ]
-
+  "name": "pusher",
+  "filename": "pusher.min.js",
+  "version": "2.2.4",
+  "description": "Pusher Javascript library",
+  "homepage": "http://pusher.com/",
+  "keywords": [
+    "pusher",
+    "websockets",
+    "realtime"
+  ],
+  "maintainers": [
+    {
+      "name": "Pusher",
+      "twitter": "pusher",
+      "web": "http://pusher.com/"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/pusher/pusher-js"
+    }
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/pusher/pusher-js.git",
+    "basePath": "dist",
+    "files": [
+      "*.js",
+      "*.swf"
+    ]
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "name": "algoliasearch",
+  "filename": "algoliasearch.min.js",
+  "version": "2.9.2",
+  "description": "Algolia Search JavaScript API Client",
+  "homepage": "https://github.com/algolia/algoliasearch-client-js",
+  "keywords": [
+    "algolia",
+    "search",
+    "search api",
+    "instant search",
+    "realtime",
+    "autocomplete"
+  ],
+  "maintainers": [
+    {
+      "name": "Algolia",
+      "url": "https://www.algolia.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/algolia/algoliasearch-client-js"
+    }
+  ],
+  "npmName": "algoliasearch",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ]
+}

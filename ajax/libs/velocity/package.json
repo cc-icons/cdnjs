@@ -1,6 +1,6 @@
 {
   "name": "velocity",
-  "version": "1.0.0",
+  "version": "1.2.2",
   "homepage": "http://velocityjs.org",
   "author": {
     "name": "Julian Shapiro",
@@ -14,7 +14,7 @@
   ],
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/julianshapiro/velocity.git",
+    "target": "git://github.com/julianshapiro/velocity.git",
     "basePath": "/",
     "files": [
       "velocity.js",
@@ -44,5 +44,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/julianshapiro/velocity.git"
-  }
+  },
+  "namespace": "$.fn.velocity"
 }

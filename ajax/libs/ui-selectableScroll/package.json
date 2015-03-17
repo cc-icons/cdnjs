@@ -5,8 +5,8 @@
   "title": "An extended jQuery-ui selectable with scroll capabilities",
   "licenses": [
     {
-        "type": "GPLv3",
-        "url": "http://opensource.org/licenses/GPL-3.0"
+      "type": "GPLv3",
+      "url": "http://opensource.org/licenses/GPL-3.0"
     }
   ],
   "dependencies": {

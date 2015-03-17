@@ -1,7 +1,7 @@
 {
   "name": "cc-icons",
   "description": "Creative Commons Web Font.",
-  "version": "1.0.1",
+  "version": "1.2.1",
   "homepage": "http://cc-icons.github.io/",
   "filename": "css/cc-icons.min.css",
   "keywords": [
@@ -35,18 +35,18 @@
     "url": "https://github.com/cc-icons/cc-icons.git"
   },
   "github": "https://github.com/cc-icons/cc-icons/",
-	"autoupdate": {
-  "source": "git",
-  "target": "git://github.com/cc-icons/cc-icons.git",
-  "basePath": "",
-  "files": [
-    "ccs/cc-icons-min.css",
-    "css/cc-icons.css",
-    "fonts/cc-icons.eot",
-    "fonts/cc-icons.otf",
-    "fonts/cc-icons.svg",
-    "fonts/cc-icons.ttf",
-    "fonts/cc-icons.woff"
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cc-icons/cc-icons.git",
+    "basePath": "",
+    "files": [
+      "ccs/cc-icons.min.css",
+      "css/cc-icons.css",
+      "fonts/cc-icons.eot",
+      "fonts/cc-icons.otf",
+      "fonts/cc-icons.svg",
+      "fonts/cc-icons.ttf",
+      "fonts/cc-icons.woff"
+    ]
   }
 }

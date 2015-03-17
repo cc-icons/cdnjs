@@ -5,10 +5,10 @@
   "description": "An Application Architecture Using Backbone.js",
   "homepage": "http://chaplinjs.org/",
   "repositores": [
-      {
-          "type": "git",
-          "url": "git://github.com/chaplinjs/chaplin.git"
-      }
+    {
+      "type": "git",
+      "url": "git://github.com/chaplinjs/chaplin.git"
+    }
   ],
   "devDependencies": {
     "grunt": "0.4.x",

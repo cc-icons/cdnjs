@@ -1,0 +1,30 @@
+{
+  "name": "neo-async",
+  "version": "0.6.3",
+  "description": "Neo-Async is thought to be used as a drop-in replacement for Async, it almost fully covers its functionality and runs faster",
+  "main": "index.js",
+  "keywords": [
+    "async"
+  ],
+  "filename": "async.js",
+  "npmName": "neo-async",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*"
+      ]
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suguru03/neo-async.git"
+  },
+  "author": "suguru03",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/suguru03/neo-async/blob/master/LICENSE"
+    }
+  ]
+}

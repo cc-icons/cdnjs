@@ -1,7 +1,7 @@
 {
   "name": "vue",
   "filename": "vue.min.js",
-  "version": "0.10.6",
+  "version": "0.11.5",
   "license": "MIT",
   "description": "Simple, Fast & Composable MVVM for building interative interfaces",
   "homepage": "http://vuejs.org",
@@ -32,5 +32,6 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "gratipay": "yyx990803"
 }

@@ -5,7 +5,14 @@
   "version": "0.2.0",
   "homepage": "http://radio.uxder.com/",
   "author": "Scott Murphy, @hellocreation",
-  "keywords": [ "pubsub", "pub/sub","publish","subscribe","events", "ender" ],
+  "keywords": [
+    "pubsub",
+    "pub/sub",
+    "publish",
+    "subscribe",
+    "events",
+    "ender"
+  ],
   "main": "./radio.js",
   "ender": "./ender.js",
   "repository": {

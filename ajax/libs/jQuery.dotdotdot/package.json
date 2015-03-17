@@ -2,7 +2,7 @@
   "name": "jQuery.dotdotdot",
   "filename": "jquery.dotdotdot.min.js",
   "main": "src/js/jquery.dotdotdot.js",
-  "version": "1.6.10",
+  "version": "1.7.2",
   "homepage": "http://dotdotdot.frebsite.nl/",
   "authors": [
     "Fred Heusschen <info@frebsite.nl>"
@@ -41,5 +41,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/BeSite/jQuery.dotdotdot.git"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/BeSite/jQuery.dotdotdot.git",
+    "basePath": "src/js",
+    "files": [
+      "*.js"
+    ]
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "jplayer",
-  "filename": "jquery.jplayer/jquery.jplayer.min.js",
-  "version": "2.6.4",
+  "filename": "jplayer/jquery.jplayer.min.js",
+  "version": "2.9.2",
   "description": "The jQuery HTML5 Audio / Video Library",
   "homepage": "http://www.jplayer.org/",
   "keywords": [
@@ -29,6 +29,20 @@
     {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "npmName": "jplayer",
+  "npmFileMap": [
+    {
+      "basePath": "/dist/",
+      "files": [
+        "**/*.css",
+        "**/*.js",
+        "**/*.jpg",
+        "**/*.png",
+        "**/*.gif",
+        "**/*.swf"
+      ]
     }
   ]
 }

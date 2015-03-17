@@ -1,7 +1,7 @@
 {
   "name": "reveal.js",
   "filename": "js/reveal.min.js",
-  "version": "2.6.2",
+  "version": "3.0.0",
   "description": "A framework for easily creating beautiful presentations using HTML",
   "homepage": "http://lab.hakim.se/reveal-js/",
   "keywords": [
@@ -28,5 +28,22 @@
       "type": "MIT",
       "url": "https://github.com/hakimel/reveal.js/blob/master/LICENSE"
     }
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/hakimel/reveal.js.git",
+    "basePath": "",
+    "files": [
+      "css/*/*.css",
+      "css/*.css",
+      "js/*.js",
+      "lib/*/*.js",
+      "lib/*/*.css",
+      "lib/*/*/*.css",
+      "lib/*/*/*.eot",
+      "lib/*/*/*.ttf",
+      "lib/*/*/*.woff",
+      "plugin/*/*.js"
+    ]
+  }
 }

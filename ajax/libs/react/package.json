@@ -1,7 +1,7 @@
 {
   "name": "react",
   "filename": "react.min.js",
-  "version": "0.11.1",
+  "version": "0.13.1",
   "description": "React is a JavaScript library for building user interfaces.",
   "keywords": [
     "react",
@@ -19,5 +19,6 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "namespace": "React"
 }

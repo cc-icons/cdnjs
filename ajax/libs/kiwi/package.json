@@ -5,7 +5,10 @@
   "author": "Pierre Matri <pierre.matri@coolony.com>",
   "filename": "kiwi.min.js",
   "contributors": [
-    { "name": "Pierre Matri", "email": "pierre.matri@coolony.com" }
+    {
+      "name": "Pierre Matri",
+      "email": "pierre.matri@coolony.com"
+    }
   ],
   "dependencies": {
     "frame": "*",
@@ -18,11 +21,21 @@
     "uglify-js": "*",
     "jshint": "*"
   },
-  "keywords": ["kiwi", "asynchronous", "template", "web", "express", "engine", "html"],
-    "repository": "git://github.com/coolony/kiwi",
-    "main": "index",
+  "keywords": [
+    "kiwi",
+    "asynchronous",
+    "template",
+    "web",
+    "express",
+    "engine",
+    "html"
+  ],
+  "repository": "git://github.com/coolony/kiwi",
+  "main": "index",
   "scripts": {
     "test": "make test"
-    },
-  "engines": { "node":">= 0.6.0" }
+  },
+  "engines": {
+    "node": ">= 0.6.0"
+  }
 }

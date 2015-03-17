@@ -1,0 +1,40 @@
+{
+  "name": "deck.js",
+  "filename": "core/deck.core.min.js",
+  "version": "1.1.0",
+  "description": "Modern HTML Presentations",
+  "homepage": "https://github.com/imakewebthings/deck.js",
+  "author": {
+    "name": "Caleb Troughton",
+    "email": "caleb@imakewebthings.com",
+    "url": "http://imakewebthings.com"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/imakewebthings/deck.js.git"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/imakewebthings/deck.js/blob/master/MIT-license.txt"
+    }
+  ],
+  "keywords": [
+    "deck",
+    "Presentation"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/imakewebthings/deck.js.git",
+    "basePath": "",
+    "files": [
+      "core/*.css",
+      "core/*.js",
+      "themes/*/*.css",
+      "extensions/*/*.css",
+      "extensions/*/*.js"
+    ]
+  }
+}

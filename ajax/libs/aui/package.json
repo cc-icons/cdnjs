@@ -10,12 +10,16 @@
     "aui",
     "adg"
   ],
-  "maintainers": [{
-    "name": "Rich Manalang",
-    "web": "https://twitter.com/rmanalan"
-  }],
-  "repositories": [{
-    "type": "git",
-    "url": "https://bitbucket.org/atlassian/aui"
-  }]
+  "maintainers": [
+    {
+      "name": "Rich Manalang",
+      "web": "https://twitter.com/rmanalan"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://bitbucket.org/atlassian/aui"
+    }
+  ]
 }
